@@ -68,7 +68,7 @@ pink = '\033[1;35m'
 G3 = '\x1b[38;5;48m'
 #__________________[ LINEX ]__________________#
 def clear():os.system('clear');print(logo)
-def linex():print(f'{A}──────────────────────────────────────────────────')
+def linex():print(f'{A}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€')
 #__________________[ LOGO ]__________________#
 logo =f"""\x1b[1;97m         
 \033[1;33m    
@@ -77,24 +77,74 @@ logo =f"""\x1b[1;97m
  | | | |/ _` |/ _` |/ _` |
  | |_| | (_| | (_| | (_| |
  |____/ \__,_|\__,_|\__,_|                         
-{A}──────────────────────────────────────────────────"""
+{A}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€"""
+
+#____APPROVAL SYSTEM ADD_____#
+os.system('clear')
+print(logo)
+def meyexudi():
+  uuid = str(os.geteuid()) + str(os.getlogin())
+  id = "K".join(uuid)
+  try:
+    httpCaht = requests.get('https://github.com/GoleBrand/Sabinv1/blob/main/approval.txt').text
+    if id in httpCaht:
+      msg = str(os.geteuid())
+      #time.sleep(0.5)
+      print()
+      pass
+    else:
+      print(meyermarexudi)
+      print(' \x1b[1;97m[â€¢] WI-FI AND DATA BOTH WORKING')
+      print(" \x1b[0m[â€¢] YOUR KEY :\033[1;35m "+id)
+      input(' \033[1;37m[â€¢] IF U WANT TO BUY THEN PRESS ENTER ')
+      os.system('am start https://www.facebook.com/share/15fTystWAb/'),approval()      
+      time.sleep(1)
+      meyexudi()
+  except:
+    sys.exit()
+meyexudi()
+#os.system("python hero.py")
+def naima():
+	os.system('clear')
+print('   TO LOGIN ENTER USERNAME AND PASSWORD')	
+print('-----------------------------------------------')
+def back():
+	login()
+	
+	import getpass
+
+attemps = 0
+
+while attemps < 12345677901:
+    username = input(' \033[1;37m [\u001b[36mâ€¢\033[1;37m] ENTER USERNAME: ')
+    password = input(' \033[1;37m [\u001b[36mâ€¢\033[1;37m] ENTER PASSWORD: ')
+
+    if username == 'Sabin' and password == 'Dai':
+        print(' ')
+        break
+    else:
+        print(' Incorrect Pass Hanis PakheðŸ˜¹ ')
+        attemps += 1
+        continue
+os.system('clear')
+pass
+        
 #__________________[ RESULT ]__________________#
 def result(OKs,cps):
     if len(OKs) != 0 or len(cps) != 0:
-        print(f'\r{A}──────────────────────────────────────────────────')
+        print(f'\r{A}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€')
         print(f'{G1}[{A}={G1}]{G1} SAKYO CLONING MUJI...')
         print(f'{G1}[{A}={G2}]{G2} CHALNE ID {A}:{G2} %s' % str(len(oks)))
         print(f'{G1}[{A}={G2}]{G3} NACHALNE ID {A}:{G3} %s' % str(len(cps)))
-        print(f'\r{A}──────────────────────────────────────────────────')
+        print(f'\r{A}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€')
         input(f"{G1}[{A}={G4}]{G4} PRESS ENTER TO BACK MENU ")
-        exit()
-        
+        exit()             
 #__________________[ MENU ]__________________#
 def menu():   
     clear()
     print(f'{G1}[{A}1{G1}]{G1} FILE CLONING')
     print(f'{G1}[{A}2{G2}]{G2} RANDOM CLONING')
-    print(f'{G1}[{A}3{G3}]{G3} CONTACT TOOL OWNER')
+    print(f'{G1}[{A}3{G3}]{G3} CONTACT TOOL OWNER')    
     print(f'{G1}[{A}0{G4}]{G4} EXIT TOOLS')
     linex()
     select = input(f'{G1}[{A}?{G5}]{G5} CHOICE {A}:{G5} ')
@@ -157,11 +207,11 @@ def _bd_():
             psd = [code+name+cod+love,cod+love,name+love,code+name+cod,'77889900','malala','fitiavana','Fitiavana','safidy','Safidy','nirina','Nirina','rakoto','Rakoto','avotra','nomena','mamako','Mamako','malagasy','santatra','randria','Randria','finaritra','faniry','hasina','Hasina','fifaliana','mirana','tolotra','silako','lataka','Lataka','milely','Milely','tabory']
             sexy.submit(randm,ids,psd)
     print('')
-    print(f'\r{A}──────────────────────────────────────────────────')
+    print(f'\r{A}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€')
     print(f'{G1}[{A}={G1}]{G1} THE PROCESS HAS BEEN COMPLETED')
     print(f'{G1}[{A}={G2}]{G2} TOTAL OK ID {A}:{G2} {str(len(ok))}')
     print(f'{G1}[{A}={G3}]{G3} TOTAL CP ID {A}:{G3} {str(len(cp))}')
-    print(f'\r{A}──────────────────────────────────────────────────')
+    print(f'\r{A}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€')
     input(f'{G1}[{A}={G4}]{G4} PRESS ENTER TO BACK ')
     menu()
 #__________________[ ALL COUNTRY ]__________________#
@@ -186,11 +236,11 @@ def _India_():
             psd = [love,ids[:8],'57273200','59039200','57575751','77889900','malala','fitiavana','Fitiavana','safidy','Safidy','nirina','Nirina','rakoto','Rakoto','avotra','nomena','mamako','Mamako','malagasy','santatra','randria','Randria','finaritra','faniry','hasina','Hasina','fifaliana','mirana','tolotra','silako','lataka','Lataka','milely','Milely','tabory']
             sexy.submit(randm,ids,psd)
     print('')
-    print(f'\r{A}──────────────────────────────────────────────────')
+    print(f'\r{A}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€')
     print(f'{G1}[{A}={G1}]{G1} THE PROCESS HAS BEEN COMPLETED')
     print(f'{G1}[{A}={G2}]{G2} TOTAL OK ID {A}:{G2} {str(len(ok))}')
     print(f'{G1}[{A}={G3}]{G3} TOTAL CP ID {A}:{G3} {str(len(cp))}')
-    print(f'\r{A}──────────────────────────────────────────────────')
+    print(f'\r{A}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€')
     input(f'{G1}[{A}={G4}]{G4} PRESS ENTER TO BACK ')
     menu()
 #__________________[ FILE ]__________________#      
