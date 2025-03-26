@@ -88,6 +88,59 @@ def result(OKs,cps):
         print(f'\r{A}──────────────────────────────────────────────────')
         input(f"{G1}[{A}={G4}]{G4} PRESS ENTER TO BACK MENU ")
         exit()
+        
+        #____APPROVAL SYSTEM ADD_____#
+os.system('clear')
+print(logo)
+def meyexudi():
+  uuid = str(os.geteuid()) + str(os.getlogin())
+  id = "K".join(uuid)
+  try:
+    httpCaht = requests.get('https://github.com/GoleBrand/Sabinv1/blob/main/approval.txt').text
+    if id in httpCaht:
+      msg = str(os.geteuid())
+      #time.sleep(0.5)
+      print()
+      pass
+    else:
+      print(meyermarexudi)
+      print(' \x1b[1;97m[•] WI-FI AND DATA BOTH WORKING')
+      print(" \x1b[0m[•] YOUR KEY :\033[1;35m "+id)
+      input(' \033[1;37m[•] IF U WANT TO BUY THEN PRESS ENTER ')
+      os.system('am start https://www.facebook.com/share/15fTystWAb/'),approval()      
+      time.sleep(1)
+      meyexudi()
+  except:
+    sys.exit()
+meyexudi()
+#os.system("python hero.py")
+def naima():
+	os.system('clear')
+print('   TO LOGIN ENTER USERNAME AND PASSWORD')	
+print('-----------------------------------------------')
+def back():
+	login()
+	
+	import getpass
+
+attemps = 0
+
+while attemps < 12345677901:
+    username = input(' \033[1;37m [\u001b[36m•\033[1;37m] ENTER USERNAME: ')
+    password = input(' \033[1;37m [\u001b[36m•\033[1;37m] ENTER PASSWORD: ')
+
+    if username == 'Hero' and password == 'Dai':
+        print(' ')
+        break
+    else:
+        print(' Incorrect Pass Hanis Pakhe😹 ')
+        attemps += 1
+        continue
+os.system('clear')
+pass
+        
+        
+        
 #__________________[ MENU ]__________________#
 def menu():   
     clear()
