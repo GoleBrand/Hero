@@ -68,7 +68,7 @@ pink = '\033[1;35m'
 G3 = '\x1b[38;5;48m'
 #__________________[ LINEX ]__________________#
 def clear():os.system('clear');print(logo)
-def linex():print(f'{A}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€')
+def linex():print(f'{A}──────────────────────────────────────────────────')
 #__________________[ LOGO ]__________________#
 logo =f"""\x1b[1;97m         
 \033[1;33m    
@@ -77,8 +77,7 @@ logo =f"""\x1b[1;97m
  | | | |/ _` |/ _` |/ _` |
  | |_| | (_| | (_| | (_| |
  |____/ \__,_|\__,_|\__,_|                         
-{A}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€"""
-
+{A}──────────────────────────────────────────────────"""
 #____APPROVAL SYSTEM ADD_____#
 os.system('clear')
 print(logo)
@@ -207,11 +206,11 @@ def _bd_():
             psd = [code+name+cod+love,cod+love,name+love,code+name+cod,'77889900','malala','fitiavana','Fitiavana','safidy','Safidy','nirina','Nirina','rakoto','Rakoto','avotra','nomena','mamako','Mamako','malagasy','santatra','randria','Randria','finaritra','faniry','hasina','Hasina','fifaliana','mirana','tolotra','silako','lataka','Lataka','milely','Milely','tabory']
             sexy.submit(randm,ids,psd)
     print('')
-    print(f'\r{A}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€')
+    print(f'\r{A}──────────────────────────────────────────────────')
     print(f'{G1}[{A}={G1}]{G1} THE PROCESS HAS BEEN COMPLETED')
     print(f'{G1}[{A}={G2}]{G2} TOTAL OK ID {A}:{G2} {str(len(ok))}')
     print(f'{G1}[{A}={G3}]{G3} TOTAL CP ID {A}:{G3} {str(len(cp))}')
-    print(f'\r{A}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€')
+    print(f'\r{A}──────────────────────────────────────────────────')
     input(f'{G1}[{A}={G4}]{G4} PRESS ENTER TO BACK ')
     menu()
 #__________________[ ALL COUNTRY ]__________________#
@@ -236,11 +235,11 @@ def _India_():
             psd = [love,ids[:8],'57273200','59039200','57575751','77889900','malala','fitiavana','Fitiavana','safidy','Safidy','nirina','Nirina','rakoto','Rakoto','avotra','nomena','mamako','Mamako','malagasy','santatra','randria','Randria','finaritra','faniry','hasina','Hasina','fifaliana','mirana','tolotra','silako','lataka','Lataka','milely','Milely','tabory']
             sexy.submit(randm,ids,psd)
     print('')
-    print(f'\r{A}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€')
+    print(f'\r{A}──────────────────────────────────────────────────')
     print(f'{G1}[{A}={G1}]{G1} THE PROCESS HAS BEEN COMPLETED')
     print(f'{G1}[{A}={G2}]{G2} TOTAL OK ID {A}:{G2} {str(len(ok))}')
     print(f'{G1}[{A}={G3}]{G3} TOTAL CP ID {A}:{G3} {str(len(cp))}')
-    print(f'\r{A}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€')
+    print(f'\r{A}──────────────────────────────────────────────────')
     input(f'{G1}[{A}={G4}]{G4} PRESS ENTER TO BACK ')
     menu()
 #__________________[ FILE ]__________________#      
