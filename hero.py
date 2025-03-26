@@ -77,65 +77,15 @@ logo =f"""\x1b[1;97m
  | | | |/ _` |/ _` |/ _` |
  | |_| | (_| | (_| | (_| |
  |____/ \__,_|\__,_|\__,_|                         
-{A}──────────────────────────────────────────────────"""
-#____APPROVAL SYSTEM ADD_____#
-os.system('clear')
-print(logo)
-def meyexudi():
-  uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "K".join(uuid)
-  try:
-    httpCaht = requests.get('https://github.com/GoleBrand/Sabinv1/blob/main/approval.txt').text
-    if id in httpCaht:
-      msg = str(os.geteuid())
-      #time.sleep(0.5)
-      print()
-      pass
-    else:
-      print(meyermarexudi)
-      print(' \x1b[1;97m[â€¢] WI-FI AND DATA BOTH WORKING')
-      print(" \x1b[0m[â€¢] YOUR KEY :\033[1;35m "+id)
-      input(' \033[1;37m[â€¢] IF U WANT TO BUY THEN PRESS ENTER ')
-      os.system('am start https://www.facebook.com/share/15fTystWAb/'),approval()      
-      time.sleep(1)
-      meyexudi()
-  except:
-    sys.exit()
-meyexudi()
-#os.system("python hero.py")
-def naima():
-	os.system('clear')
-print('   TO LOGIN ENTER USERNAME AND PASSWORD')	
-print('-----------------------------------------------')
-def back():
-	login()
-	
-	import getpass
-
-attemps = 0
-
-while attemps < 12345677901:
-    username = input(' \033[1;37m [\u001b[36mâ€¢\033[1;37m] ENTER USERNAME: ')
-    password = input(' \033[1;37m [\u001b[36mâ€¢\033[1;37m] ENTER PASSWORD: ')
-
-    if username == 'Sabin' and password == 'Dai':
-        print(' ')
-        break
-    else:
-        print(' Incorrect Pass Hanis PakheðŸ˜¹ ')
-        attemps += 1
-        continue
-os.system('clear')
-pass
-        
+{A}──────────────────────────────────────────────────"""        
 #__________________[ RESULT ]__________________#
 def result(OKs,cps):
     if len(OKs) != 0 or len(cps) != 0:
-        print(f'\r{A}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€')
+        print(f'\r{A}──────────────────────────────────────────────────')
         print(f'{G1}[{A}={G1}]{G1} SAKYO CLONING MUJI...')
         print(f'{G1}[{A}={G2}]{G2} CHALNE ID {A}:{G2} %s' % str(len(oks)))
         print(f'{G1}[{A}={G2}]{G3} NACHALNE ID {A}:{G3} %s' % str(len(cps)))
-        print(f'\r{A}â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€')
+        print(f'\r{A}──────────────────────────────────────────────────')
         input(f"{G1}[{A}={G4}]{G4} PRESS ENTER TO BACK MENU ")
         exit()             
 #__________________[ MENU ]__________________#
