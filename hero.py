@@ -147,7 +147,6 @@ def menu():
     print(f'{G1}[{A}1{G1}]{G1} FILE CLONING')
     print(f'{G1}[{A}2{G2}]{G2} RANDOM CLONING')
     print(f'{G1}[{A}3{G3}]{G3} CONTACT TOOL OWNER')
-    print(f'{G1}[{A}status{G4}]{G4} Free ho hai muji')
     print(f'{G1}[{A}0{G4}]{G4} EXIT TOOLS')
     linex()
     select = input(f'{G1}[{A}?{G5}]{G5} CHOICE {A}:{G5} ')
